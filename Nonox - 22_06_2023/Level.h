@@ -1,6 +1,9 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 #include "ArchiveMatrix.h"
+#include <iostream>
+#include <string.h>
+
 
 
 
@@ -9,17 +12,21 @@ class Level: public sf::Drawable{
 private:
 
     Matrix _level;
-    short _lifes;
+    short _lifes=3;
     int _currentLevel;
     int _sizeCell;
     int _rows;
     int _columns;
+    int _option;
     bool Won=false;
     bool Lost=false;
     sf::RectangleShape **RectangleCell;
     sf::Font font;
+    sf::Text powerUpText;
     sf::Text *referenceText;
-
+    sf::Texture lifesTexture[3];
+    sf::Sprite lifesSprite[3];
+    bool _powerUpOn=false;
 
 public:
 
@@ -32,17 +39,15 @@ public:
         delete[] RectangleCell;
         delete[]referenceText;
     }
-     void loadParametersLevel(int level);
-     void loadDraw(int level, sf::Vector2u ventanaSize);
-     void loadLevel(int level,int rows, int columns);
+    void loadParametersLevel(int level);
+    void loadDraw(int level, sf::Vector2u ventanaSize);
+    void loadLevel(int level,int rows, int columns);
+    void loadDrawLifes(int level, sf::Vector2u ventanaSize);
+    void loadDrawPowerUp(int level, sf::Font &font,sf::Vector2u ventanaSize);
+    virtual void draw(sf::RenderTarget& target, sf::RenderStates states) const;
+    void update(sf::RenderWindow& window);
+    void powerUp();
 
-       virtual void draw(sf::RenderTarget& target, sf::RenderStates states) const {
-
-//            target.draw(quitOptionText);
-//        for(int i=0;i<_size;i++){
-//            target.draw(playerText[i]);
-//            target.draw(playerScoreText[i]);
-         }
 
     void setVidas(int vidas);
     void setlevelActual(int levelActual);
@@ -56,8 +61,11 @@ public:
     void setLost(bool P);
     bool getWon();
     bool getLost();
+    bool getPowerUpOn(){return _powerUpOn;}
+    void setPowerUpOn(bool aux){_powerUpOn=aux;}
 
-    bool yowWintheLevel();
+    bool youWintheLevel();
+    int mistakes();
     void showlevel(int level, int rows, int columns);
     void corregirCell();
     bool siCliquea( sf::RenderWindow &Ventana,int sizeCell,sf::Text& Equis);
