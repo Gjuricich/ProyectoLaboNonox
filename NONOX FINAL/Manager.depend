@@ -514,3 +514,109 @@
 1687990017 source:c:\users\daniel\desktop\nonox 28_06_2023\auxiliarscreens.cpp
 	"AuxiliarScreens.h"
 
+1687374364 source:c:\users\daniel\documents\github\proyectolabononox\nonox final\archivematrix.cpp
+	"cstring"
+	<stdio.h>
+	"ArchiveMatrix.h"
+
+1687374364 c:\users\daniel\documents\github\proyectolabononox\nonox final\archivematrix.h
+	"Matrix.h"
+
+1687696335 c:\users\daniel\documents\github\proyectolabononox\nonox final\matrix.h
+	"Cell.h"
+	<iostream>
+
+1688005981 c:\users\daniel\documents\github\proyectolabononox\nonox final\cell.h
+
+1687811867 source:c:\users\daniel\documents\github\proyectolabononox\nonox final\archivescore.cpp
+	<iostream>
+	"cstring"
+	"ArchiveScore.h"
+
+1687811867 c:\users\daniel\documents\github\proyectolabononox\nonox final\archivescore.h
+	"Score.h"
+
+1687977164 c:\users\daniel\documents\github\proyectolabononox\nonox final\score.h
+	"cstring"
+
+1687990017 source:c:\users\daniel\documents\github\proyectolabononox\nonox final\auxiliarscreens.cpp
+	"AuxiliarScreens.h"
+
+1687989956 c:\users\daniel\documents\github\proyectolabononox\nonox final\auxiliarscreens.h
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1687216059 source:c:\users\daniel\documents\github\proyectolabononox\nonox final\cell.cpp
+	"Cell.h"
+
+1687971604 source:c:\users\daniel\documents\github\proyectolabononox\nonox final\credits.cpp
+	"Credits.h"
+
+1687971399 c:\users\daniel\documents\github\proyectolabononox\nonox final\credits.h
+	<SFML/Graphics.hpp>
+
+1688004443 source:c:\users\daniel\documents\github\proyectolabononox\nonox final\level.cpp
+	"Level.h"
+
+1687999932 c:\users\daniel\documents\github\proyectolabononox\nonox final\level.h
+	<SFML/Graphics.hpp>
+	"ArchiveMatrix.h"
+	<iostream>
+	<string.h>
+
+1688006881 source:c:\users\daniel\documents\github\proyectolabononox\nonox final\main.cpp
+	<SFML/Graphics.hpp>
+	"ManagerNonox.h"
+
+1688006145 c:\users\daniel\documents\github\proyectolabononox\nonox final\managernonox.h
+	"menuNonox.h"
+	"ArchiveScore.h"
+	"Level.h"
+	"Timer.h"
+	"Ranking.h"
+	"Credits.h"
+	"Rules.h"
+	"AuxiliarScreens.h"
+	<iostream>
+
+1687965899 c:\users\daniel\documents\github\proyectolabononox\nonox final\menunonox.h
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1687888826 c:\users\daniel\documents\github\proyectolabononox\nonox final\timer.h
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1688066479 c:\users\daniel\documents\github\proyectolabononox\nonox final\ranking.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	"cstring"
+	"ArchiveScore.h"
+
+1687964058 c:\users\daniel\documents\github\proyectolabononox\nonox final\rules.h
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1688006792 source:c:\users\daniel\documents\github\proyectolabononox\nonox final\managernonox.cpp
+	"ManagerNonox.h"
+
+1687696298 source:c:\users\daniel\documents\github\proyectolabononox\nonox final\matrix.cpp
+	"Matrix.h"
+
+1687971320 source:c:\users\daniel\documents\github\proyectolabononox\nonox final\menunonox.cpp
+	"menuNonox.h"
+
+1687971705 source:c:\users\daniel\documents\github\proyectolabononox\nonox final\ranking.cpp
+	"Ranking.h"
+
+1688005707 source:c:\users\daniel\documents\github\proyectolabononox\nonox final\rules.cpp
+	"Rules.h"
+
+1687988633 source:c:\users\daniel\documents\github\proyectolabononox\nonox final\score.cpp
+	"Score.h"
+	"ArchiveScore.h"
+
+1687889290 source:c:\users\daniel\documents\github\proyectolabononox\nonox final\timer.cpp
+	<iostream>
+	"Timer.h"
+

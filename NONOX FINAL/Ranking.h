@@ -29,7 +29,7 @@ class Ranking: public Drawable{
 
       int getStateWindow();
       void LoadDraw(sf::Vector2u ventanaSize);
-      virtual void draw(sf::RenderTarget& target, sf::RenderStates states) const;
+      virtual void draw(sf::RenderTarget& target, sf::RenderStates states) const override;
       void update(sf::RenderWindow& window);
 
 
